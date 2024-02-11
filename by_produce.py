@@ -264,6 +264,7 @@ while(num!=0):
     p*=2
 print(dec)
 
+
 #TECH number 
 num=2025
 copy=num
