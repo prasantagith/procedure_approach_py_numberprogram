@@ -66,5 +66,16 @@ def niven(num,d_sum):
         return False
 print(niven(int(input('enter numbers:')),0))'''
 
-#ne
+#neon
+def neon(num,d_sum):
+    sq=num**2
+    while(sq>0):
+        rem=sq%10
+        d_sum+=rem
+        sq//=10
+    return d_sum==num
+
+print(neon(12,0))
+
+
             
