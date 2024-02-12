@@ -7,6 +7,7 @@
                 return False
         return True
 
+
 print(prime(int(input('enter num: '))))
 
 #composite number
