@@ -10,6 +10,8 @@
 
 print(prime(int(input('enter num: '))))
 
+
+
 #composite number
 def composite(num,fc):
     for value in range(1,num+1):
